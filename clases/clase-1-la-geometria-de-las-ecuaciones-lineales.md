@@ -97,7 +97,7 @@ $$
 
 De modo que llegamos a la forma:
 
-$A * \bold{x} = b$, donde $\bold{x}$ y $b$ son vectores.
+$A * \mathbf{x} = b$, donde $\mathbf{x}$ y $b$ son vectores.
 
 ## Ejemplo con tres incógnitas.
 
