@@ -19,7 +19,7 @@ Tomamos una ecuación a la vez y dibujamos las rectas que representan en un sist
 
 ![Gráfico del sistema de ecuaciones](/recursos/imagenes/video-1/grafico-1.png)
 
-(El código utilizando la librería `ploty` se puede descargar [acá](/recursos/codigo/video-1/grafico-1.py)).
+(El código utilizando la librería `plotly` se puede descargar [acá](/recursos/codigo/video-1/grafico-1.py)).
 
 La intersección de las rectas es la resolución del sistema. $x=1, y=2$. Satisface ambas ecuaciones.
 
@@ -48,13 +48,13 @@ Cada una de las columnas podemos pensarla como vectores.
 
 ![Gráfico del sistema como vectores](/recursos/imagenes/video-1/grafico-2.png)
 
-(El código utilizando la librería `ploty` se puede descargar [acá](/recursos/codigo/video-1/grafico-2.py)).
+(El código utilizando la librería `plotly` se puede descargar [acá](/recursos/codigo/video-1/grafico-2.py)).
 
 Necesitamos encontrar la **combinación lineal** de términos $x$ e $y$ que me permitan obtener el vector resultado. 
 
 ![Gráfico del sistema como combinación vectorial](/recursos/imagenes/video-1/grafico-3.png)
 
-(El código utilizando la librería `ploty` se puede descargar [acá](/recursos/codigo/video-1/grafico-3.py)).
+(El código utilizando la librería `plotly` se puede descargar [acá](/recursos/codigo/video-1/grafico-3.py)).
 
 Notemos que llegamos al resultado $b$ mediante la suma de vectores. El punto $(1, 1)$ señala la primera suma del vector $y$ al vector $x$, pero debemos sumarle dos veces $y$. De ese modo, llegamos a $b$, con extremo en el punto $(0, 3)$.
 
@@ -132,7 +132,7 @@ $$
 
 ![Gráfico del sistema como tres planos](/recursos/imagenes/video-1/grafico-4.png)
 
-(El código utilizando la librería `ploty` se puede descargar [acá](/recursos/codigo/video-1/grafico-4.py))
+(El código utilizando la librería `plotly` se puede descargar [acá](/recursos/codigo/video-1/grafico-4.py))
 
 _Nota_: Si tuviéramos sólo dos ecuaciones en un espacio de tres dimensiones, la solución será una recta. La recta en la que ambos planos se interceptan. Con tres planos, si los parámetros lo permiten, los tres planos se interceptarán en un punto.
 
@@ -206,7 +206,7 @@ para $z$: $1*(0)+1*(-3)+0=-3$
 
 O, lo que es lo mismo:
 
-**¿Podemos resolver cualquier $A\bold{x}=b$ para cualquier $b$?**
+**¿Podemos resolver cualquier $A\mathbf{x}=b$ para cualquier $b$?**
 
 En el caso particular estudiado: sí. La matriz es no-singular, es invertible. 
 
@@ -220,9 +220,9 @@ Estaremos entonces frente a un caso singular. La matriz no será invertible.
 
 Dada la forma:
 
-$A\bold{x}=b$
+$A\mathbf{x}=b$
 
-Siendo $A$ una matriz y $\bold{x}$ un vector. ¿Cómo se multiplican? Hay dos formas de hacerlo.
+Siendo $A$ una matriz y $\mathbf{x}$ un vector. ¿Cómo se multiplican? Hay dos formas de hacerlo.
 
 **1) Por columnas.**
 
@@ -271,8 +271,8 @@ $$
 2 
 \end{bmatrix} =
 \begin{bmatrix}
-(2*1)+(5*2) \\
-(1*1)+(3*2) 
+(2 * 1)+(5 * 2) \\
+(1 * 1)+(3 * 2) 
 \end{bmatrix} =
 \begin{bmatrix}
 12 \\
